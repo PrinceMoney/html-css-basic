@@ -1,0 +1,85 @@
+.synopsis {
+  color: #7e8184; /*light gray */
+  font-size: italic;
+}
+.button:link,              /* changed this */
+.button:visited {
+  /* changed this */
+  display: block; /* added this */
+  text-decoration: none; /* added this */
+  color: #fff; /*the rest is the same */
+  background-color: #5995da; /*blue*/
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5d6063; /*dark Gray*/
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #eeb75a; /*yellow*/
+}
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #f5cf8e; /* Light yellow */
+}
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #d55c5f; /* red */
+}
+
+.synopsis em {
+  font-style: normal;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+a:visited:hover {
+  color: orange;
+}
+.button:hover,
+.button:visited:hover {
+  color: #fff;
+  background-color: #76aeed; /* Light blue */
+}
+.button:active,
+.button:visited:active {
+  color: #fff;
+  background-color: #5995da; /* Blue */
+}
+p:last-of-type {
+  margin-bottom: 50px;
+}
+p:first-of-type {
+  color: #7e8184;
+  font-style: italic;
+}
+#button-2 {
+  color: #d55c5f; /* red */
+}
+/* (This is painful to maintain) */
+#button-2,
+#button-3,
+#checkout-button,
+#menu-bar-call-to-action {
+  color: #5d6063;
+}
